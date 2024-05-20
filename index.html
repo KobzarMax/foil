@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>KarmaCard v1</title>
+</head>
+<body>
+
+    <section class="cards">
+        <div class="scene">
+            <div class="card foil">
+                <img src="./gold_bg.svg" alt="gold card">
+                <div class="card__shine"></div>
+            </div>
+            <div class="dynamic">
+                <iframe id="backlayer" src="https://ordinals.com/content/2ea8e9c4454dff626a584c5da0b5db88f66b7efa39aabfcc6714fcbff695901ci0"></iframe>
+            </div>
+            <div class="letters" id="letters">
+                <img src="gold_letters.svg" class="lettersImg" alt="gold_letters">
+            </div>
+        </div>
+    </section>
+
+    <script src="./vanilla-tilt.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
